@@ -1,0 +1,6 @@
+---
+ - name: test file 
+   host: localhost
+   become: true
+   shell: 
+     cmd: touch test
